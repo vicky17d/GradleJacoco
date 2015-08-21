@@ -53,19 +53,25 @@ public class CalculatorTestSuccessful {
 		calculator.divison(10, 0);
 	}
 
-	@Ignore
+
 	@Test
 	public void testEqual() {
 		boolean result = calculator.equalIntegers(20, 20);
 
-		assertFalse(result);
+		assertTrue(result);
 	}
 
-	@Ignore
 	@Test
 	public void testSubstraction() {
-		int result = 10 - 3;
+		int result = calculator.subtraction(10, 2);
 
-		assertTrue(result == 9);
+		assertTrue(result == 8);
 	}
+
+    @Test
+    public void testMultiplication() {
+        int result = calculator.multiplication(10, 2);
+
+        assertTrue(result == 20);
+    }
 }
