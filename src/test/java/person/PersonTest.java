@@ -1,6 +1,5 @@
-package test.java;
+package person;
 
-import main.java.Person;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.BeforeClass;

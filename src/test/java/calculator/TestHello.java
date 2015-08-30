@@ -1,4 +1,4 @@
-package test.java;
+package calculator;
 
 
 import org.junit.Test;

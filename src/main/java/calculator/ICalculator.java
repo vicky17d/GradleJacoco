@@ -1,4 +1,4 @@
-package main.java;
+package calculator;
 
 public interface ICalculator {
 	int sum(int a, int b);
