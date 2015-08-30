@@ -1,0 +1,2 @@
+include 'ModuleBBB', "shared", "api", "services:webservice", "services:shared"
+
