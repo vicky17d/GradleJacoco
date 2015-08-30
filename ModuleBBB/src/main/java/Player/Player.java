@@ -1,12 +1,9 @@
-package person;
-
-import java.lang.String;
+package player;
 
 /**
- * Created by vdahuja on 7/31/15.
+ * Created by vdahuja on 8/30/2015.
  */
-
-public class Person {
+public class Player {
     int age;
     String name;
 

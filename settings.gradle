@@ -1,2 +1,4 @@
-include 'ModuleBBB', "shared", "api", "services:webservice", "services:shared"
+//include 'ModuleAAA', 'ModuleBBB', "shared", "api", "services:webservice", "services:shared"
+include 'ModuleAAA', 'ModuleBBB'
+
 

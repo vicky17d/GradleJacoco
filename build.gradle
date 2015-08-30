@@ -10,6 +10,30 @@ dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
 }
 
+subprojects {
+    apply plugin: 'java'
+    apply plugin: "jacoco"
+
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        testCompile group: 'junit', name: 'junit', version: '4.12'
+    }
+
+    version = '1.0'
+
+    jar {
+        manifest.attributes provider: 'gradle'
+    }
+    test {
+        testLogging {
+            // Show that tests are run in the command-line output
+            events 'started', 'passed'
+        }
+    }
+}
 test {
     testLogging {
         // Show that tests are run in the command-line output
